@@ -1,0 +1,43 @@
+body{
+    background-image: url("img-noise-361x370.png");
+}
+
+.form-field{
+    margin-bottom: 20px;
+}
+
+input[type="button"]{
+    border: none;
+    width: auto;
+    padding-left: 0;
+    font-size: large;
+}
+
+
+input[type="button"]:hover{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0px;
+    border-bottom: 5px;
+    outline: none;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    font-size: large;
+    box-sizing: border-box;
+}
+
+#result{
+    top:  40%;
+    left: 10%;
+    position:absolute;
+    font-size: larger;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Cookies</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <div class="form-field">
+            <label>Ingresar nombre</label>
+            <input type="text" id="nombre" placeholder="Tom">
+        </div>
+        <div class="form-field">
+            <label>Ingresar apellido</label>
+            <input type="text" id="apellido" placeholder="Scott">
+        </div>
+        <div class="form-field">
+            <label>Ingresar correo</label>
+            <input type="text" id="correo" placeholder="tom@scott.com">
+        </div>
+        <div class="form-field">
+            <label>Ingresar carrera</label>
+            <input type="text" id="carrera" placeholder="ciencias computacionales">
+        </div>
+        <div class="form-field">
+            <input type="button" value="enviar" onclick="create_cookie()">
+        </div>  
+    </form>
+    </div>
+    <div id="result">
+        <p></p>
+    </div>
+</body>
+</html>
